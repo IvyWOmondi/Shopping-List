@@ -37,6 +37,8 @@
             button2 = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            saveFileDialog1 = new SaveFileDialog();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -135,12 +137,28 @@
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
             // 
+            // saveFileDialog1
+            // 
+            saveFileDialog1.FileOk += saveFileDialog1_FileOk;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.LightPink;
+            button3.Location = new Point(836, 384);
+            button3.Name = "button3";
+            button3.Size = new Size(64, 68);
+            button3.TabIndex = 8;
+            button3.Text = "Done";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LavenderBlush;
             ClientSize = new Size(912, 499);
+            Controls.Add(button3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
@@ -175,5 +193,7 @@
         private Button button2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private SaveFileDialog saveFileDialog1;
+        private Button button3;
     }
 }

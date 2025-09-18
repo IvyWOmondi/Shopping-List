@@ -72,5 +72,23 @@ namespace Shopping_List
                 MessageBox.Show("Item not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Show the Save File dialog
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = saveFileDialog1.FileName;
+
+                // Save each item to the file, one per line
+                System.IO.File.WriteAllLines(filePath, Item.Items.Cast<string>());
+                MessageBox.Show("Shopping list saved.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }
