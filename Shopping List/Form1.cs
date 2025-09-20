@@ -5,6 +5,7 @@ namespace Shopping_List
         public Form1()
         {
             InitializeComponent();
+            saveFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
         }
 
         private void button1_Click(object sender, EventArgs e)
