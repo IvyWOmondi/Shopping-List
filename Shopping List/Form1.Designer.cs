@@ -81,7 +81,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.LightPink;
-            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.BorderStyle = BorderStyle.Fixed3D;
             label1.Font = new Font("Segoe Print", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Crimson;
             label1.Location = new Point(325, 37);
