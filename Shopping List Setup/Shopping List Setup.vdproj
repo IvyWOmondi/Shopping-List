@@ -70,6 +70,16 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_50C40615C4CA4A15A296F78CFB06C29C"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
@@ -131,7 +141,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Shopping List Setup"
         "ProductCode" = "8:{9851F4AE-796D-4EF5-8011-1D71B20AA3FE}"
-        "PackageCode" = "8:{8D952C6C-113E-4BBA-AA64-7B8519D610D2}"
+        "PackageCode" = "8:{082A9E2A-74B1-4691-80CC-9CEF9B06ABB0}"
         "UpgradeCode" = "8:{256CA7E3-D38A-4BE1-9E65-55A43D843CC2}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
