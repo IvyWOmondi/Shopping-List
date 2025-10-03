@@ -49,7 +49,9 @@
             Item.Location = new Point(180, 100);
             Item.Margin = new Padding(4, 5, 4, 5);
             Item.Name = "Item";
+            Item.ScrollAlwaysVisible = true;
             Item.Size = new Size(528, 284);
+            Item.Sorted = true;
             Item.TabIndex = 0;
             Item.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
