@@ -91,5 +91,10 @@ namespace Shopping_List
                 MessageBox.Show("Shopping list saved.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

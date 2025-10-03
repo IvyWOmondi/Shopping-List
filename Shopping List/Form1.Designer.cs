@@ -35,11 +35,9 @@
             label1 = new Label();
             button2 = new Button();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             saveFileDialog1 = new SaveFileDialog();
             button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // Item
@@ -80,13 +78,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.LightPink;
-            label1.BorderStyle = BorderStyle.Fixed3D;
+            label1.BackColor = Color.LavenderBlush;
             label1.Font = new Font("Segoe Print", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Crimson;
             label1.Location = new Point(325, 37);
             label1.Name = "label1";
-            label1.Size = new Size(218, 45);
+            label1.Size = new Size(216, 43);
             label1.TabIndex = 3;
             label1.Text = "SHOPPING LIST";
             // 
@@ -108,25 +105,13 @@
             pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Location = new Point(30, 184);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(118, 118);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.ErrorImage = (Image)resources.GetObject("pictureBox2.ErrorImage");
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
-            pictureBox2.Location = new Point(12, 352);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(118, 118);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // saveFileDialog1
             // 
@@ -150,7 +135,6 @@
             BackColor = Color.LavenderBlush;
             ClientSize = new Size(912, 499);
             Controls.Add(button3);
-            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(label1);
@@ -161,9 +145,8 @@
             ForeColor = Color.Crimson;
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
-            Text = "Shopping List Form";
+            Text = "Shopping List";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -181,7 +164,6 @@
         }
         private Button button2;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private SaveFileDialog saveFileDialog1;
         private Button button3;
     }
