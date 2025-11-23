@@ -162,7 +162,7 @@
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Your logic here
+           
         }
         private Button button2;
         private PictureBox pictureBox1;
