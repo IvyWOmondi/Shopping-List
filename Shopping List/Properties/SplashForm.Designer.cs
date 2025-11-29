@@ -1,4 +1,6 @@
-﻿namespace Shopping_List.Properties
+﻿using System.ComponentModel;
+
+namespace Shopping_List.Properties
 {
     partial class SplashForm
     {
@@ -69,5 +71,7 @@
         #endregion
 
         private PictureBox pictureBox1;
+
+        public IContainer Components { get => components; set => components = value; }
     }
 }
