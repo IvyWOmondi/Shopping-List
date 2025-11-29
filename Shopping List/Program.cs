@@ -13,6 +13,14 @@ namespace Shopping_List
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Show splash screen
+            DisplaySplashScreen();
+
+            // Launch main form
+            Application.Run(new Form1());
+        }
+
+        private static void DisplaySplashScreen()
+        {
             using (var splash = new SplashForm())
             {
                 splash.Show();
@@ -23,9 +31,6 @@ namespace Shopping_List
 
                 splash.Close();
             }
-
-            // Launch main form
-            Application.Run(new Form1());
-        }
+            }
     }
 }
