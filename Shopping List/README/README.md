@@ -8,7 +8,7 @@ It has dependencies and three major folders, namely, properties, git, and README
 - ## **Installation Instructions**
 Download through release on https://github.com/IvyWOmondi/Shopping-List.git.
 - ## **API Usage Details**
-N/A
+Winforms is the main API used in this project. It provides the visual elements and the code behind them.
 - ## **How Data is Stored**
 Data is stored in a *.txt file* which can be opened via the notebook app.  
 - ## **Known Issues/Limitations**
