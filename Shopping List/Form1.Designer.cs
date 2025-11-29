@@ -162,7 +162,19 @@
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+            // When the selection changes, copy the selected item's text into the text box
+            // and enable the remove/clear button so the user can remove or edit it.
+            var selected = Item.SelectedItem;
+            if (selected != null)
+            {
+                textBox1.Text = selected.ToString() ?? string.Empty;
+                button2.Enabled = true;
+            }
+            else
+            {
+                textBox1.Clear();
+                button2.Enabled = false;
+            }
         }
         private Button button2;
         private PictureBox pictureBox1;
