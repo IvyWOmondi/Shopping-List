@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\grace\\source\\repos\\Shopping List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|c:\\users\\grace\\source\\repos\\shopping list\\shopping list\\properties\\splashform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|solutionrelative:shopping list\\properties\\splashform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|c:\\users\\grace\\source\\repos\\shopping list\\shopping list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|solutionrelative:shopping list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|c:\\users\\grace\\source\\repos\\shopping list\\shopping list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|solutionrelative:shopping list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|c:\\users\\grace\\source\\repos\\shopping list\\shopping list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|solutionrelative:shopping list\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SplashForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Properties\\SplashForm.Designer.cs",
-              "RelativeDocumentMoniker": "Shopping List\\Properties\\SplashForm.Designer.cs",
-              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Properties\\SplashForm.Designer.cs",
-              "RelativeToolTip": "Shopping List\\Properties\\SplashForm.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:59:33.35Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -49,14 +32,14 @@
               "RelativeDocumentMoniker": "Shopping List\\Program.cs",
               "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Program.cs",
               "RelativeToolTip": "Shopping List\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:54:42.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Form1.cs",
               "RelativeDocumentMoniker": "Shopping List\\Form1.cs",
