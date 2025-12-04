@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\grace\\source\\repos\\Shopping List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|c:\\users\\grace\\source\\repos\\shopping list\\testproject\\testclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|solutionrelative:testproject\\testclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|c:\\users\\grace\\source\\repos\\shopping list\\testproject\\removefromlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|solutionrelative:testproject\\removefromlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|c:\\users\\grace\\source\\repos\\shopping list\\testproject\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|solutionrelative:testproject\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|c:\\users\\grace\\source\\repos\\shopping list\\testproject\\addtolistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9289FFC8-4DAD-4DD3-8572-13FB7FBCAA13}|TestProject\\TestProject.csproj|solutionrelative:testproject\\addtolistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|c:\\users\\grace\\source\\repos\\shopping list\\shopping list\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D857B740-8FA4-4A8B-9E0E-8B2AE9EFBA6C}|Shopping List\\Shopping List.csproj|solutionrelative:shopping list\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,60 +17,20 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RemovefromListResponse.cs",
-              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\RemovefromListResponse.cs",
-              "RelativeDocumentMoniker": "TestProject\\RemovefromListResponse.cs",
-              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\RemovefromListResponse.cs",
-              "RelativeToolTip": "TestProject\\RemovefromListResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:04:35.22Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestClass1.cs",
-              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\TestClass1.cs",
-              "RelativeDocumentMoniker": "TestProject\\TestClass1.cs",
-              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\TestClass1.cs",
-              "RelativeToolTip": "TestProject\\TestClass1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:47:11.155Z",
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Shopping List\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\Shopping List\\Properties\\Resources.resx",
+              "RelativeToolTip": "Shopping List\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-04T05:38:03.729Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddtoListResponse.cs",
-              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\AddtoListResponse.cs",
-              "RelativeDocumentMoniker": "TestProject\\AddtoListResponse.cs",
-              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\AddtoListResponse.cs",
-              "RelativeToolTip": "TestProject\\AddtoListResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:06:05.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListManager.cs",
-              "DocumentMoniker": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\ListManager.cs",
-              "RelativeDocumentMoniker": "TestProject\\ListManager.cs",
-              "ToolTip": "C:\\Users\\grace\\source\\repos\\Shopping List\\TestProject\\ListManager.cs",
-              "RelativeToolTip": "TestProject\\ListManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:57:44.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
