@@ -13,19 +13,22 @@ namespace Shopping_List
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Show splash screen
-            using (var splash = new SplashForm())
-            {
-                splash.Show();
-                Application.DoEvents(); // Forces splash to render
-
-                // Simulate loading time
-                System.Threading.Thread.Sleep(3000); // 3 seconds
-
-                splash.Close();
-            }
+            DisplaySplashScreen();
 
             // Launch main form
             Application.Run(new Form1());
+        }
+
+        private static void DisplaySplashScreen()
+        {
+            using var splash = new SplashForm();
+            splash.Show();
+            Application.DoEvents(); // Forces splash to render
+
+            // Simulate loading time
+            System.Threading.Thread.Sleep(3000); // 3 seconds
+
+            splash.Close();
         }
     }
 }
