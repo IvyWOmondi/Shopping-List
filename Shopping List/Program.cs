@@ -21,16 +21,14 @@ namespace Shopping_List
 
         private static void DisplaySplashScreen()
         {
-            using (var splash = new SplashForm())
-            {
-                splash.Show();
-                Application.DoEvents(); // Forces splash to render
+            using var splash = new SplashForm();
+            splash.Show();
+            Application.DoEvents(); // Forces splash to render
 
-                // Simulate loading time
-                System.Threading.Thread.Sleep(3000); // 3 seconds
+            // Simulate loading time
+            System.Threading.Thread.Sleep(3000); // 3 seconds
 
-                splash.Close();
-            }
-            }
+            splash.Close();
+        }
     }
 }
